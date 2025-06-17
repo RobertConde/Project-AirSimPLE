@@ -11,7 +11,7 @@ Required Software:
 
 To clone the repository to a folder `airsimple-repo` and **download all asset files using Git LFS**:
 ```bash
-git clone https://git.iimc.kyoto-u.ac.jp/chiao709hsieh/airsimple.git airsimple-repo
+git clone https://github.com/CyPhAi-Project/Project-AirSimPLE.git airsimple-repo
 cd airsimple-repo/
 git lfs pull
 ```
