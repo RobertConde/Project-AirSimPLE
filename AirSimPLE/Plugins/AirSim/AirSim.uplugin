@@ -1,0 +1,33 @@
+{
+  "FileVersion" : 3,
+  "Version" : "1.8.1",
+  "VersionName": "1.8.1",
+  "FriendlyName": "AirSim",
+  "Description": "AirSim - Autonomous Aerial Vehicles Simulator Plugin",
+  "Category" : "Science",
+  "CreatedBy": "Shital Shah",
+  "CreatedByURL": "http://github.com/Microsoft/AirSim",
+  "DocsURL" : "https://github.com/Microsoft/AirSim/blob/master/README.md",
+  "MarketplaceURL" : "",
+  "SupportURL" : "https://github.com/Microsoft/AirSim/issues",
+  "CanContainContent": true,
+  "IsBetaVersion" : true,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "AirSim",
+      "Type": "Runtime",
+      "LoadingPhase": "PreDefault"
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "Paper2D",
+      "Enabled": true
+    },
+    {
+      "Name": "ChaosVehiclesPlugin",
+      "Enabled": true
+    }
+  ]
+}
